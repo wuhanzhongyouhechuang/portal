@@ -1,0 +1,107 @@
+@import '../css/normalize.css';
+@import '../css/base.css';
+.banner-pic {
+  margin: 61px 0;
+  padding: 0;
+}
+.banner-pic > .slide > .Ipay-pic img {
+  height: 550px;
+}
+.our-advantages .adv-header {
+  text-align: center;
+}
+.our-advantages .adv-header .adv-title {
+  margin: 0 23px;
+  font-size: 24px;
+}
+.our-advantages .adv-header img {
+  vertical-align: baseline;
+}
+.our-advantages .adv-content {
+  margin-top: 30px;
+}
+.our-advantages .adv-content .adv-item {
+  width: 285px;
+  height: 274px;
+  margin: 25px auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: all 0.2s linear;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #6d6d6d;
+}
+.our-advantages .adv-content .adv-item:hover {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transform: translateY(-5px);
+}
+.our-advantages .adv-content .adv-item h3 {
+  margin-top: 148px;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 0 9px 0 9px;
+}
+.our-advantages .adv-content .adv-item p {
+  padding: 0 9px 0 9px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 19px;
+}
+.our-advantages .bg-data {
+  background: url(../images/advantages/item-data.png);
+}
+.our-advantages .bg-cost {
+  background: url(../images/advantages/item-cost.png);
+}
+.our-advantages .bg-security {
+  background: url(../images/advantages/item-security.png);
+}
+.our-advantages .bg-flexible {
+  background: url(../images/advantages/item-flexible.png);
+}
+.our-advantages .bg-convenient {
+  background: url(../images/advantages/item-convenient.png);
+}
+.our-advantages .bg-service {
+  background: url(../images/advantages/item-service.png);
+}
+.partner .partner-header {
+  color: #666;
+  text-align: center;
+}
+.partner .partner-header h2 {
+  padding-top: 60px;
+  font: 34px/54px "微软雅黑";
+  letter-spacing: 10px;
+}
+.partner .partner-header h3 {
+  font: 28px/54px "微软雅黑";
+}
+.partner ul {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #434343;
+}
+.partner ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 20px 0;
+}
+.partner ul li img {
+  width: 79.5%;
+  transition: all 0.2s ease;
+}
+.partner ul li img:hover {
+  transform: scale(1.1);
+}
+.partner ul li p {
+  font: 20px/32px "微软雅黑";
+  color: #373737;
+}
+.partner ul li span {
+  font: 14px/26px "微软雅黑";
+  color: #8e8e8e;
+}

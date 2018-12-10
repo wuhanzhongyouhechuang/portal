@@ -1,0 +1,5 @@
+@import '../css/normalize.css';
+@import '../css/base.css';
+.content {
+  height: 800px;
+}

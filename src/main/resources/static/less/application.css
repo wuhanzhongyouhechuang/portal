@@ -1,0 +1,144 @@
+@import '../css/normalize.css';
+@import '../css/base.css';
+.application-bg {
+  padding: 0;
+  margin: 61px 0;
+}
+.application-bg img {
+  width: 100%;
+}
+.product-system {
+  text-align: center;
+}
+.product-system h2 {
+  padding-top: 54px;
+  font: 34px/54px "微软雅黑";
+  letter-spacing: 10px;
+}
+.product-system h3 {
+  padding-bottom: 52px;
+  font: 28px/54px "微软雅黑";
+}
+.product-system ul {
+  padding-bottom: 94px;
+}
+.product-system ul li {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.product-system ul li a {
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  display: block;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+  color: #a1a1a1;
+  text-decoration: none;
+}
+.product-system ul li a:hover {
+  text-decoration: none;
+  border: 1px solid #29a2eb;
+}
+.product-system ul li a h4 {
+  padding-top: 4px;
+  font: 20px/94px "微软雅黑";
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #4a4a4a;
+}
+.product-system ul li a p {
+  height: 96px;
+  font: 14px/24px "微软雅黑";
+  color: #4a4a4a;
+}
+.product-system ul li a span {
+  display: block;
+  margin: 34px auto 28px;
+  width: 150px;
+  height: 30px;
+  font: 15px/30px "微软雅黑";
+  border-radius: 15px;
+  color: #fff;
+  background-color: #29a2eb;
+}
+.payment-scene {
+  background-color: #f9f9f9;
+  padding-bottom: 58px;
+}
+.payment-scene > div {
+  color: #666;
+}
+.payment-scene > div h2 {
+  padding-top: 58px;
+  font: 34px/54px "微软雅黑";
+  letter-spacing: 10px;
+  text-align: center;
+}
+.payment-scene > div h3 {
+  font: 28px/54px "微软雅黑";
+  text-align: center;
+}
+.payment-scene > div h4 {
+  font: 20px/78px "微软雅黑";
+  color: #57a0ff;
+}
+.payment-scene > div ul li {
+  float: left;
+  margin-left: 80px;
+  font: 18px/42px "微软雅黑";
+  text-align: center;
+  position: relative;
+}
+.payment-scene > div ul li img {
+  transition: all 0.2s ease;
+}
+.payment-scene > div ul li img:hover {
+  transform: scale(1.1);
+}
+.payment-scene > div {
+  border-bottom: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
+}
+.payment-scene > div dl {
+  overflow: hidden;
+}
+.payment-scene > div dl dt {
+  float: left;
+  font: 20px/60px "微软雅黑";
+  text-align: center;
+  color: #757575;
+  background-color: #eee;
+  width: 16.5%;
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+}
+.payment-scene > div dl dd {
+  float: left;
+  font: 20px/60px "微软雅黑";
+  text-align: center;
+  color: #757575;
+  background-color: #fff;
+  width: 16.7%;
+  border-top: 1px solid #d1d1d1;
+  border-left: 1px solid #d1d1d1;
+}
+.fit-business > div:first-of-type {
+  padding: 49px 0px 0px 0px;
+  text-align: center;
+}
+.fit-business > div:first-of-type span img {
+  vertical-align: baseline;
+}
+.fit-business > div:first-of-type span:nth-child(2) {
+  margin: 0 23px 0 23px;
+  font-size: 24px;
+}
+.fit-business > div > ul {
+  margin-left: 7%;
+}
+.fit-business > div > ul li {
+  float: left;
+  width: 31%;
+  padding-top: 35px;
+  text-align: center;
+}
